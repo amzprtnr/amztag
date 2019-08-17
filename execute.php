@@ -31,7 +31,7 @@ if(isset($message['text']))
   $arr = explode("http", $text, 2);
   $testoLink = $arr[0];
   
-  $dominioAmazon = get_string_between($text, "://www.", ".it");
+  $dominioAmazon = get_string_between($text, "://www.", ".de");
   $dominioGearbest = get_string_between($text, "://www.", ".com");
 	
   //NUOVO PARSER:
